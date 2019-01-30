@@ -30,7 +30,7 @@
 										'name' => 'name',
 										'id' => 'name',
 										'class' => 'form-control',
-										'placeholder' => 'Category Name',
+										'placeholder' => 'Entrez le libellé de la catégorie ',
 										'value' => ''
 									));
 								?>
@@ -47,7 +47,7 @@
 										'name' => 'ordering',
 										'id' => 'ordering',
 										'class' => 'form-control',
-										'placeholder' => 'Ordering',
+										'placeholder' => 'N° d\'ordre',
 										'value' => ''
 									));
 								?>

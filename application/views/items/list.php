@@ -146,7 +146,7 @@
 											<?php if($item->is_published == 1):?>
 											
 												<button class="btn btn-sm btn-primary unpublish"   
-													itemId='<?php echo $item->id;?>'>Yes
+													itemId='<?php echo $item->id;?>'>Oui
 												</button>
 												
 											<?php else:?>
@@ -161,7 +161,7 @@
 											<?php if($item->is_published == 1):?>
 											
 												<button class="btn btn-sm btn-primary unpublish"   
-													itemId='<?php echo $item->id;?>'>Yes
+													itemId='<?php echo $item->id;?>'>Oui
 												</button>
 												
 											<?php else:?>

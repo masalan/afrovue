@@ -1,4 +1,4 @@
-			<h2 class="page-header">Welcome, <?php echo $this->user->get_logged_in_user_info()->user_name;?>!</h2>
+			<h2 class="page-header">  <?php echo $this->lang->line('f_welcome_me'); ?>, <?php echo $this->user->get_logged_in_user_info()->user_name;?>!</h2>
 			
 			<?php if($this->session->flashdata('success')): ?>
 				<div class="alert alert-success fade in">
@@ -105,7 +105,7 @@
 						
 						<div class="ibox float-e-margins">
 						    <div class="ibox-title">
-						        <h5>Category Information</h5>
+						        <h5>Détail catégorie</h5>
 						        <div class="ibox-tools">
 						            <span class="label label-warning-light">Total : <?php echo $this->category->count_all($this->city->get_current_city()->id); ?> Categories</span>
 						        </div>
@@ -117,7 +117,7 @@
 						        		$all_categories = $this->category->get_all($this->city->get_current_city()->id, 5);
 						        		foreach($all_categories->result() as $cat)
 						        			echo '<h5>'.$cat->name.' <br/><small class="m-r">'.
-						        				'<a href="'.site_url('categories/edit/' . $cat->id).'">Check For Detail!</a></small></h5>';
+						        				'<a href="'.site_url('categories/edit/' . $cat->id).'">Vérifier les détails!</a></small></h5>';
 						        	?>
 						         </div>
 						         
@@ -149,7 +149,7 @@
 									?>
 									
 		                        </div>
-		                        <small class="pull-right text-navy"><a href='<?php echo site_url('inquiries');?>'>View All</a></small>
+		                        <small class="pull-right text-navy"><a href='<?php echo site_url('inquiries');?>'>Voir tout</a></small>
 		                    </div>
 		                </div>
 		            </div>
@@ -198,9 +198,9 @@
 		                        </div>-->
 		                        <div class="ibox float-e-margins">
 		                            <div class="ibox-title">
-		                                <h5>Sub Information</h5>
+		                                <h5>Information secondaire</h5>
 		                                <div class="ibox-tools">
-		                                    <span class="label label-warning-light">Total : <?php echo $this->sub_category->count_all($this->city->get_current_city()->id); ?> Sub Categories</span>
+		                                    <span class="label label-warning-light">Total : <?php echo $this->sub_category->count_all($this->city->get_current_city()->id); ?> Sous Categories</span>
 		                                </div>
 		                            </div>
 		                            <div class="ibox-content">
@@ -210,7 +210,8 @@
 		                                		$all_sub_categories = $this->sub_category->get_all($this->city->get_current_city()->id, 5);
 		                                		foreach($all_sub_categories->result() as $sub_cat)
 		                                			echo '<h5>'.$sub_cat->name.' <br/><small class="m-r">'.
-		                                				'<a href="'.site_url('sub_categories/edit/' . $cat->id).'">Check For Detail!</a></small></h5>';
+		                                				'<a href="'.site_url('sub_categories/edit/' . $cat->id).'">Vérifier les détails
+!</a></small></h5>';
 		                                	?>
 		                                 </div>
 		                                 
@@ -228,7 +229,7 @@
 		                            <div class="ibox-title">
 		                                <h5>News Feed List</h5>
 		                                <div class="ibox-tools">
-		                                    <span class="label label-warning-light">Total : <?php echo $all_feeds_count;?> Feeds</span>
+		                                    <span class="label label-warning-light">Total : <?php echo $all_feeds_count;?> Les flux</span>
 		                                </div>
 		                            </div>
 		                            <div class="ibox-content">
@@ -263,7 +264,7 @@
 												
 		                                </div>
 		                                
-		                                 <small class="pull-right text-navy"><a href='<?php echo site_url('feeds');?>'>View All</a></small>
+		                                 <small class="pull-right text-navy"><a href='<?php echo site_url('feeds');?>'>Voir tout</a></small>
 		                                
 		
 		                            </div>
@@ -282,17 +283,17 @@
                                     <div class="ibox-title">
                                         <h5>Recent Items list</h5>
                                         <div class="ibox-tools">
-                                            <span class="label label-warning-light">Total : <?php echo $all_items_count;?> Items</span>
+                                            <span class="label label-warning-light">Total : <?php echo $all_items_count;?> Articles</span>
                                         </div>
                                     </div>
                                     <div class="ibox-content">
                                         <table class="table table-hover no-margins">
                                             <thead>
                                             <tr>
-                                                <th>Name</th>
-                                                <th>Category</th>
-                                                <th>Sub Category</th>
-                                                <th>Address</th>
+                                                <th>Nom</th>
+                                                <th>Categorie</th>
+                                                <th>Sous Categorie</th>
+                                                <th>Adresse</th>
                                             </tr>
                                             </thead>
                                             
@@ -310,7 +311,7 @@
                                             ?>
                                            </tbody>
                                         </table>
-                                        <small class="pull-right text-navy"><a href='<?php echo site_url('items');?>'>View All</a></small>
+                                        <small class="pull-right text-navy"><a href='<?php echo site_url('items');?>'>Voir tout</a></small>
                                     </div>
                                 </div>
                             </div>

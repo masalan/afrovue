@@ -19,7 +19,7 @@
 					   			'name' => 'searchterm',
 					   			'id' => '',
 					   			'class' => 'form-control',
-					   			'placeholder' => 'Search',
+					   			'placeholder' => 'Entez une catégorie',
 					   			'value' => ''
 					   		));
 					   	?>
@@ -48,27 +48,26 @@
 				</div>
 			<?php endif;?>
 			<div class="wrapper wrapper-content animated fadeInRight">
-			<table class="table table-striped table-bordered">
-				<tr>
-					<th><?php echo $this->lang->line('no_label')?></th>
-					<th><?php echo $this->lang->line('category_name_label')?></th>
-					<?php 
+			<table class="table table-striped table-bordered" >
+					<th style="text-align: center;"><?php echo $this->lang->line('no_label')?></th>
+					<th style="text-align: center;"><?php echo $this->lang->line('category_name_label')?></th>
+					<?php
 						if(!$this->session->userdata('is_city_admin')) { 
 							if(in_array('edit',$allowed_accesses)):?>
-								<th><?php echo $this->lang->line('edit_label')?></th>
+								<th style="text-align: center;"><?php echo $this->lang->line('edit_label')?></th>
 					<?php endif; } else { ?>
-								<th><?php echo $this->lang->line('edit_label')?></th>
+								<th style="text-align: center;"><?php echo $this->lang->line('edit_label')?></th>
 					<?php } ?>
 					
 					<?php 
 						if(!$this->session->userdata('is_city_admin')) { 
 							if(in_array('delete',$allowed_accesses)):?>
-								<th><?php echo $this->lang->line('delete_label')?></th>
+								<th style="text-align: center;"><?php echo $this->lang->line('delete_label')?></th>
 					<?php endif; } else { ?>
-								<th><?php echo $this->lang->line('delete_label')?></th>
+								<th style="text-align: center;"><?php echo $this->lang->line('delete_label')?></th>
 					<?php } ?>
-					
-					<?php 
+
+					<?php
 						if(!$this->session->userdata('is_city_admin')) { 
 							if(in_array('publish',$allowed_accesses)):?>
 								<th><?php echo $this->lang->line('publish_label')?></th>
@@ -107,10 +106,10 @@
 										<td>
 											<?php if($category->is_published == 1):?>
 												<button class="btn btn-sm btn-primary unpublish" 
-												catId='<?php echo $category->id;?>'>Yes</button>
+												catId='<?php echo $category->id;?>'><?php echo $this->lang->line('yes_button')?> </button>
 											<?php else:?>
 												<button class="btn btn-sm btn-danger publish" 
-												catId='<?php echo $category->id;?>'>No</button><?php endif;?>
+												catId='<?php echo $category->id;?>'><?php echo $this->lang->line('no_button')?></button><?php endif;?>
 										</td>
 							<?php endif; } else { ?>
 										<td>

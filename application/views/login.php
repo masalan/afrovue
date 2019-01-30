@@ -64,7 +64,7 @@
 						<?php endif;?>
 						
 						<div class="form-group">
-							<label><font color="#fff">Email Address</font></label>
+							<label><font color="#fff">Email Adresse</font></label>
 							<?php 
 								echo form_input( array(
 									'type' => 'text',

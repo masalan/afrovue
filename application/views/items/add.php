@@ -134,7 +134,7 @@
 						        		'name' => 'find_location',
 						        		'id' => 'find_location',
 						        		'class' => 'form-control',
-						        		'placeholder' => 'Type & Find Location',
+						        		'placeholder' => 'Saisissez et trouver la location',
 						        		'value' => ''
 						        	));
 						        ?>
