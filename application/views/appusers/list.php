@@ -24,7 +24,7 @@
 			  	<button type="submit" class="btn btn-default"><?php echo $this->lang->line('search_button')?></button>
 			</form>
 			
-			<br/>
+		 	<br/>
 			<div class="wrapper wrapper-content animated fadeInRight">
 			<table class="table table-striped table-bordered">
 				<tr>

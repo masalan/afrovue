@@ -97,7 +97,7 @@
 							 	        		'name' => 'find_location',
 							 	        		'id' => 'find_location',
 							 	        		'class' => 'form-control',
-							 	        		'placeholder' => 'Type & Find Location',
+							 	        		'placeholder' => 'Taper & Trouver Lieu',
 							 	        		'value' => ''
 							 	        	));
 							 	        ?>

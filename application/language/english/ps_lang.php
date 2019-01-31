@@ -13,11 +13,11 @@ $lang['no_label']                       = "N°";
 $lang['item_name_label']                = "Libellé catégorie";
 $lang['category_name_label']            = "Catégorie";
 $lang['sub_category_name_label']        = "Désignation sous-catégorie";
-$lang['unit_price_label']               = "Unit Price";
+$lang['unit_price_label']               = "Prix unitaire";
 $lang['edit_label']                     = "Modifier";
 $lang['delete_label']                   = "Supprimer";
 $lang['publish_label']                  = "Publiée";
-$lang['approve_label']					= "Approval Status";
+$lang['approve_label']					= "Statut approuvé";
 $lang['detail_label']					= "Detail";
 $lang['no_item_data_message']           = "Aucune données pour l'article.";
 $lang['search_message']                 = "Rechercher...";
@@ -48,10 +48,10 @@ $lang['gallery_label']                  = "Gallerie";
 $lang['add_file_button']                = "Ajouter le fichier";
 $lang['start_upload_button']            = "Débuter le téléchargement";
 $lang['cancel_upload_button']           = "Annuler le téléchargement";
-$lang['paypal_status_label']			= "Is paypal enable?";
-$lang['paypal_price_label']				= "Price";
-$lang['paypal_currency_label']			= "Currency";
-$lang['paypal_config_label']			= "Paypal Config";
+$lang['paypal_status_label']			= "Paypal est-il activé?";
+$lang['paypal_price_label']				= "Prix";
+$lang['paypal_currency_label']			= "Devise";
+$lang['paypal_config_label']			= "Configuration paypal";
 $lang['register_payment_button']        = "Inscription et paiement";
 $lang['city_user_title']                = "Informations sur le pays et identifiant de connexion utilisateur";
 $lang['location_label']                 = "Location";
@@ -80,7 +80,7 @@ $lang['upload_photo_label']             = "Upload Photo";
 $lang['delete_cover_photo_label']       = "Delete Cover Photo";
 $lang['delete_photo_confirm_message']   = "Are you sure you want to delete the photo?";
 $lang['yes_button']                     = "Oui";
-$lang['no_button']                     = "No";
+$lang['no_button']                     = "N°";
 
 $lang['paypal_price_tooltips']			= "Please provide paypal price";
 $lang['paypal_currency_tooltips']		= "Please provide currency";
@@ -105,10 +105,10 @@ $lang['upload_button']                  = "Upload";
 
 $lang['feed_title']                     = "Please provide the feed title";
 $lang['feed_description']               = "Please provide the feed description";
-$lang['feed_list_label']                = "Feeds List";
+$lang['feed_list_label']                = "Liste de flux";
 $lang['add_new_feed_button']            = "Ajouter un  flux";
-$lang['feed_title_label']               = "Feed Title";
-$lang['no_sub_cat_data_message']        = "There is no data yet for the feed.";
+$lang['feed_title_label']               = "Titre de flux";
+$lang['no_sub_cat_data_message']        = "Il n'y a pas encore de données pour le flux.";
 $lang['no_rating_data_message']         = "There is no data yet for the rating.";
 
 $lang['feed_info_lable']                = "Feed Information";
@@ -123,27 +123,27 @@ $lang['no_appuser_data_message']        = "There is no data yet for the register
 $lang['appuser_list_label']             = "App Users List";
 $lang['appuser_detail_label']           = "Détail utilisateur ";
 $lang['appuser_info_label']             = "Détail utilisateur";
-$lang['back_button']                    = "Back";
-$lang['aboutme_label']                  = "About Me";
+$lang['back_button']                    = "Retour";
+$lang['aboutme_label']                  = "À propos";
 
 
-$lang['likes_list_label']               = "Likes List";
+$lang['likes_list_label']               = "Liste Like";
 $lang['date_label']                     = "Date";
-$lang['no_likes_data_message']          = "There is no data yet for likes.";
-$lang['appuser_name_label']             = "App User Name";
+$lang['no_likes_data_message']          = "Pas encore de données like.";
+$lang['appuser_name_label']             = "Nom d'utilisateur";
 
 $lang['reviews_list_label']             = "Reviews List";
 $lang['no_reviews_data_message']        = "There is no data yet for reviews.";
 
-$lang['review_info_label']              = "Review Information";
-$lang['detail_review_label']            = "Review Detail";
+$lang['review_info_label']              = "Description de revision";
+$lang['detail_review_label']            = "Détail revision";
 $lang['about_review_label']             = "About Review";
 
 $lang['favourites_list_label']          = "Favourites List";
 $lang['no_favourite_data_message']      = "There is no data yet for favourites.";
 
 $lang['inquiries_list_label']           = "Inquiries List";
-$lang['name_label']                     = "Name";
+$lang['name_label']                     = "Nom";
 $lang['no_inquiries_data_message']      = "There is no data yet for inquiries.";
 
 $lang['inquiry_detail_label']           = "Inquiry Detail";
@@ -152,28 +152,28 @@ $lang['message_label']                  = "Message";
 
 $lang['users_list_label']               = "Liste utilisateurs";
 $lang['add_new_user_button']            = "Ajouter un utilisateur";
-$lang['user_role_label']                = "Rôle utilisateur";
+$lang['user_role_label']                = "Rôle ";
 $lang['no_user_data_message']           = "There is no user yet in the system.";
 
 $lang['user_info_label']                = "Détail utilisateur";
 $lang['password_label']                 = "Mot de passe";
 $lang['confirm_password_label']         = "Mot de passe confirmé";
 $lang['allowed_modules_label']          = "Modules autorisée";
-$lang['update_user_label']              = "Update User";
+$lang['update_user_label']              = "Mettre à jour l'utilisateur";
 
-$lang['currency_update_label']          = "Currency Update";
-$lang['currency_symbol_label']          = "Currency Symbol (eg; $)";
-$lang['currency_form_label']            = "Currency Short Form (eg; USD)";
-$lang['currency_symbol_tooltips']       = "Please provide currency symbol. Eg; $ ";
-$lang['currency_form_tooltips']         = "Please provide currency short form. Eg; USD "; 
+$lang['currency_update_label']          = "Mise à jour de la monnaie";
+$lang['currency_symbol_label']          = "Symbole monétaire (par exemple; $)";
+$lang['currency_form_label']            = "Formulaire abrégé de devise (par exemple; USD) ";
+$lang['currency_symbol_tooltips']       = "Veuillez fournir le symbole monétaire. Par exemple; $ ";
+$lang['currency_form_tooltips']         = "Veuillez fournir un formulaire abrégé en devise. Par exemple; USD ";
 
-$lang['cities_list_label']              = "Cities List";
-$lang['cities_approval_list_label']		= "Cities List to approve";
-$lang['city_info_label']                = "City Information";
+$lang['cities_list_label']              = "Listes des pays";
+$lang['cities_approval_list_label']		= "Liste des pays à approuver";
+$lang['city_info_label']                = "Détails pays";
 $lang['phone_label']                    = "Téléphone";
 $lang['contact_email_label']            = "Contact Email";
-$lang['address_label']                  = "Where is your city located?";
-$lang['city_cover_photo_label']         = "City Cover Photo Uplaod";
+$lang['address_label']                  = "Où se situe votre pays?";
+$lang['city_cover_photo_label']         = " Télécharger la photo de couverture du pays";
 $lang['photo_desc_label']               = "Photo Description";
 $lang['city_name_tooltips']             = "Veuillez entrer le nom du pays.";
 $lang['city_desc_tooltips']             = "Veuillez fournir les informations du pays.";
@@ -182,7 +182,7 @@ $lang['city_email_tooltips']            = "Please provide the city email address
 $lang['city_address_tooltips']          = "Veuillez fournir l'adresse de la pays.";
 $lang['city_location_tooltips']         = "Veuillez fournir la position du pays.";
 
-$lang['city_photo_tooltips']            = "Please provide the city cover phto. It might be only one photo.";
+$lang['city_photo_tooltips']            = "Veuillez fournir le photo de couverture de la pays. Ce n'est peut-être qu'une photo.";
 $lang['city_photo_desc_tooltips']       = "Veuillez fournir une courte description de la photo.";
 $lang['update_photo_desc_label']        = "Update Photo Description";
 $lang['delete_city_label']              = "Delete City?";
@@ -204,7 +204,7 @@ $lang['reset_password_label']          = "Reset Password";
 $lang['update_profile_label']          = "Update Profile";
 
 
-$lang['city_image_recommended_size']   = "(Recommended Size : 600 x 400)";
+$lang['city_image_recommended_size']   = "(Taille recommandée : 600 x 400)";
 $lang['select_discount_message']       = "Select Discount Type";
 $lang['report_button']                 = "Generate Report";
 
@@ -214,7 +214,7 @@ $lang['rating_label']                  = "Rating Value";
 
 
 $lang['username_label']                = "Nom utilisateur";
-$lang['username_tooltips']             = "Please provide username to login backend.";
+$lang['username_tooltips']             = "Veuillez fournir un nom d'utilisateur pour vous connecter au backend.";
 $lang['password_label']                = "Mot de passe";
 $lang['confirm_password_label']       = "Confirmer Mot de passe";
 
@@ -222,7 +222,7 @@ $lang['password_tooltips']             = "Please provide password to login backe
 
 $lang['is_city_admin_label']           = "Est-ce l'administrateur du pays?";
 $lang['select_city_label']             = "
-Si l'utilisateur est 'Administrateur d'un pays', veuillez sélectionner 'Pays' pour l'attribuer.";
+Si l'utilisateur est 'Administrateur',  veuillez sélectionner 'Pays' pour l'attribuer.";
 
 $lang['sender_email_label']            = "Compte de messagerie de l'expéditeur (pour SMTP)";
 $lang['sender_email_tooltips']         = "Veuillez fournir le compte de messagerie de l'expéditeur pour SMTP";
@@ -235,28 +235,28 @@ $lang['paypal_environment_label']      = "Paypal Enviroment (Demo, Live, None)";
 $lang['paypal_environment_tooltips']   = "Please provide for Paypal Enviroment (Demo, Live, None).";
 $lang['paypal_appid_label']            = "Paypal AppID Live";
 $lang['paypal_appid_tooltips']         = "Please provide for Paypal AppID For Live Transaction.";
-$lang['paypal_merchantname_label']     = "Paypal Merchant Name";
-$lang['paypal_merchantname_tooltips']  = "Please provide for Paypal Merchant Name.";
-$lang['paypal_customerid_label']       = "Paypal Customer ID";
-$lang['paypal_customerid_tooltips']    = "Please provide for Paypal Customer ID.";
+$lang['paypal_merchantname_label']     = "Nom du marchand Paypal";
+$lang['paypal_merchantname_tooltips']  = "Veuillez indiquer le nom du marchand Paypal.";
+$lang['paypal_customerid_label']       = "Code client Paypal";
+$lang['paypal_customerid_tooltips']    = "Veuillez fournir un numéro de client Paypal.";
 $lang['paypal_ipnurl_label']           = "Paypal IpnUrl";
-$lang['paypal_ipnurl_toltips']         = "Please provide Paypal IpnUrl.";
+$lang['paypal_ipnurl_toltips']         = "Veuillez fournir Paypal IpnUrl.";
 $lang['paypal_memo_label']             = "Paypal Memo";
-$lang['paypal_memo_tooltips']          = "Please provide Paypal Memo.";
+$lang['paypal_memo_tooltips']          = "Veuillez fournir un mémo Paypal.";
 $lang['paypal_payment_type_label']     = "Paypal Payment Type(Eg; Paypal.PAYMENT_TYPE_SERVICE)";
-$lang['paypal_payment_type_tooltips']  = "Please provide for paypal payment type.";
+$lang['paypal_payment_type_tooltips']  = "Veuillez fournir le type de paiement paypal.";
 
 $lang['city_coordinate_label']         = "City(Latitude, Longitude)";
-$lang['city_coordinate_tooltips']      = "Please provide city(Latitude, Longitude)";
+$lang['city_coordinate_tooltips']      = " fournissez la pays (Latitude, Longitude)";
 $lang['city_coordinate_message']       = "Please provide with comma spearate in between Latitude and Longitude. Eg; lat,long";
 
 $lang['city_keyword_label']            = "Keyword For Search(Eg; sushi, noddle, grilled)";
 $lang['city_keyword_tooltips']         = "Please provide search keyword";
 
 $lang['city_lat_label']                = "Latitude";
-$lang['city_lat_tooltips']             = "Veuillez fournir des informations sur la latitude de la ville.";
+$lang['city_lat_tooltips']             = "Veuillez fournir des informations sur la latitude de la pays.";
 $lang['city_lng_label']                = "Longitude";
-$lang['city_lng_tooltips']             = "Veuillez fournir des informations sur la longitude de la ville.";
+$lang['city_lng_tooltips']             = "Veuillez fournir des informations sur la longitude de la pays.";
 
 $lang['lat_label']					   = "Latitude";
 $lang['lng_label']					   = "Longitude";
@@ -266,7 +266,7 @@ $lang['phone_tooltips']				   = "Please provide the phone number.";
 $lang['lat_tooltips']				   = "Please provide the latitude information.";
 $lang['lng_tooltips']				   = "Please provide the longitude information.";
 
-$lang['gcm_title']					   = "Apple Push Notification";
+$lang['gcm_title']					   = "Notification Push Apple";
 $lang['gcm_message_label']			   = "Message";
 $lang['gcm_message_tooltips']		   = "Veuillez fournir le message pour la notification push.";
 $lang['gcm_send_btn']				   = "Envoyer une notification push";
@@ -305,19 +305,19 @@ $lang['about_website_label']           = "Website";
 $lang['about_website_tooltips']        = "Please provide website";
 $lang['btn_about_app']                 = "About App";
 
-$lang['about_website_name']			   = "Website Name";
-$lang['about_website_name_tooltips']   = "Please provide short website name";
-$lang['about_keywords']				   = "Keywords";
+$lang['about_website_name']			   = "Nom du site";
+$lang['about_website_name_tooltips']   = "Veuillez fournir un court nom ";
+$lang['about_keywords']				   = "Mots clés";
 $lang['about_keywords_tooltips']	   = "Please provide keywords (comman seperated)";
 
-$lang['about_color']				   = "Color Theme";
-$lang['about_theme']				   = "Style Name";
-$lang['select_style']				   = "Select Style";
+$lang['about_color']				   = "Thème de couleur";
+$lang['about_theme']				   = "Nom du style";
+$lang['select_style']				   = "Selectionner un Style";
 
-$lang['about_facebook']		   		   =  "facebook url";
-$lang['about_facebook_tooltips']  	   = "Please provide short facebook url";
+$lang['about_facebook']		   		   =  " url facebook ";
+$lang['about_facebook_tooltips']  	   = "Veuillez fournir un court url facebook";
 $lang['about_facebook_label']          = "facebook";
-$lang['about_facebook_tooltips']       = "Please provide facebook url";
+$lang['about_facebook_tooltips']       = "Veuillez fournir un url facebook";
 
 $lang['about_twitter']			   	   = "twitter url";
 $lang['about_twitter_tooltips']        = "Please provide short twitter url";
@@ -343,7 +343,7 @@ $lang['about_pinterest']		       = "pinterest url";
 $lang['about_pinterest_tooltips']      = "Please provide short pinterest url";
 $lang['about_pinterest_label']         = "pinterest";
 $lang['about_pinterest_tooltips']      = "Please provide pinterest url";
-$lang['about_seo']					   = "SEO Setting";
+$lang['about_seo']					   = "Paramétrage SEO";
 $lang['about_social']				   = "Social Links";
 $lang['about_sitemap_url']			   = "Sitemap URL";
 $lang['about_sitemap_generate']		   = "Refresh Sitemap";
@@ -375,12 +375,12 @@ $lang['f_gallery'] = "Gallery";
 $lang['f_viewonmap'] = "View On Map";
 $lang['f_review_required'] = "Review Message is required";
 $lang['f_review_length'] = "The length of review message must be greater than 4";
-$lang['f_name_required'] = "Name is required";
-$lang['f_name_length'] = "The length of Name must be greater than 4";
-$lang['f_msg_required'] = "Message is required";
-$lang['f_msg_length'] = "The length of Message must be greater than 4";
-$lang['f_success_submit'] = "successfully Submitted";
-$lang['f_error_submit'] = "Error occured. Please contact admin";
+$lang['f_name_required'] = "Le nom est obligatoire";
+$lang['f_name_length'] = "La longueur du nom doit être supérieure à 4";
+$lang['f_msg_required'] = "Message est obligatoire";
+$lang['f_msg_length'] = "La longueur du message doit être supérieure à 4";
+$lang['f_success_submit'] = "Soumis avec succès";
+$lang['f_error_submit'] = "Une erreur est survenue.Essayer de contacter l'administrateur";
 
 // profile page labels & messages
 $lang['f_change_avatar'] = "Change Profile Photo";
@@ -444,35 +444,35 @@ $lang['f_no_more_review'] = "No more review";
 $lang['f_no_more_fav'] = "No more favourite";
 
 // common labels & messages (button, breadcrumb, etc )
-$lang['f_load_more'] = "Load More";
-$lang['f_reset_filter'] = "RESET FILTER";
-$lang['f_submit'] = "Submit";
-$lang['f_update_all'] = "Update All";
+$lang['f_load_more'] = "Charger plus";
+$lang['f_reset_filter'] = "RÉINITIALISER LE FILTRE";
+$lang['f_submit'] = "Envoyé";
+$lang['f_update_all'] = "Tout mettre à jour";
 
 // nav labels & messages
 $lang['f_brand_name'] = "CitiesDirectory";
-$lang['f_nav_home'] = "Home";
-$lang['f_nav_about'] = "About Us";
-$lang['f_nav_contact'] = "Contact Us";
-$lang['f_nav_news'] = "News Feeds";
-$lang['f_nav_create_city'] = "Create City";
+$lang['f_nav_home'] = "Acceuil";
+$lang['f_nav_about'] = "A propos de nous";
+$lang['f_nav_contact'] = "Contacter-nous";
+$lang['f_nav_news'] = "Fil d'actualités";
+$lang['f_nav_create_city'] = "Créer un pays";
 $lang['f_nav_login'] = "LOGIN";
-$lang['f_nav_signup'] = "SIGN UP";
-$lang['f_nav_profile'] = "PROFILE";
+$lang['f_nav_signup'] = "S'INSCRIRE";
+$lang['f_nav_profile'] = "PROFIL";
 $lang['f_nav_logout'] = "LOG OUT";
-$lang['f_nav_backend'] = "GO TO ADMIN PANEL";
+$lang['f_nav_backend'] = "ALLEZ AU PANNEAU ADMINISTRATEUR";
 
 // nav validation
 $lang['f_nav_email_required'] = "Email is required";
 $lang['f_nav_invalid_email'] = "Invalid Email Address";
-$lang['f_nav_pass_required'] = "Password is required";
-$lang['f_nav_pass_length'] = "The length of Password must be greater than 4";
-$lang['f_nav_name_required'] = "Username is required";
-$lang['f_nav_name_length'] = "The length of Username must be greater than 4";
-$lang['f_nav_email_exist'] = "Email Address is already existed in the system";
-$lang['f_nav_conf_required'] = "Password is required";
-$lang['f_nav_conf_length'] = "The length of Password must be greater than 4";
-$lang['f_nav_conf_error'] = "Confirm Password does not match with password";
+$lang['f_nav_pass_required'] = "Le mot de passe est obligatoire";
+$lang['f_nav_pass_length'] = "La longueur du mot de passe doit être supérieure à 4";
+$lang['f_nav_name_required'] = "Le nom d'utilisateur est obligatoire";
+$lang['f_nav_name_length'] = "La longueur du nom d'utilisateur doit être supérieure à 4";
+$lang['f_nav_email_exist'] = "L'adresse email existe déjà dans le système";
+$lang['f_nav_conf_required'] = "Le mot de passe est obligatoire";
+$lang['f_nav_conf_length'] = "La longueur du mot de passe doit être supérieure à 4";
+$lang['f_nav_conf_error'] = "Confirmer que le mot de passe ne correspond pas avec le mot de passe";
 
 // footer labels & message
 $lang['f_copyright'] = "© Copyright 2019 - All Rights Reserved ";
@@ -483,12 +483,12 @@ $lang['f_prev'] = "Previous";
 $lang['f_next'] = "Next";
 
 // 404 & success page labels & messages
-$lang['f_city_create_success_title'] = "Congratulation! Your City has been registered";
-$lang['f_city_create_success_text'] = "Your city has been registered and our approval team will review it. You will be notified by email if your registered city is approved.";
-$lang['f_btn_gotohome'] = "Go to Home Page";
-$lang['f_btn_crt_city'] = "Create Another City";
-$lang['f_err_no_page_title'] = "Sorry, we can't seem to find the page.";
-$lang['f_err_no_page_text'] = "Are you looking for other pages?";
+$lang['f_city_create_success_title'] = "Félicitation! Votre pays a été enregistré";
+$lang['f_city_create_success_text'] = "Votre pays a été enregistrée et notre équipe d’approbation l’examinera. Vous serez averti par email si votre ville enregistrée est approuvée.";
+$lang['f_btn_gotohome'] = "Aller à la page d'accueil";
+$lang['f_btn_crt_city'] = "Créer une autre pays";
+$lang['f_err_no_page_title'] = "Désolé, il semble que nous ne trouvions pas la page.";
+$lang['f_err_no_page_text'] = "Cherchez-vous d'autres pages?";
 
 
 // DASHBOARD
