@@ -5,14 +5,14 @@ $lang['search_tag_tooltips']			= "Veuillez fournir les mots clés en utilisant u
 $lang['item_description_tooltips']		= "Veuillez entrer la description significative de l'article.";
 $lang['discount_type_tooltips']		    = "Please select the discount type.";
 $lang['cat_tooltips']		            = "Veuillez sélectionner la catégorie.";
-$lang['sub_cat_tooltips']		        = "Veuillez sélectionner la sous catégorie.";
+$lang['sub_cat_tooltips']		        = "Veuillez sélectionner la sous-catégorie.";
 $lang['item_name_tooltips']		        = "Veuillez donner le nom de l'article.";
 $lang['price_tooltips']		            = "Please prodive the item's price value only. For eg; 1, 2.5, 79.5";
-$lang['publish_tooltips']	            = "Publish On/Off";
+$lang['publish_tooltips']	            = "Publier activé / désactivé";
 $lang['no_label']                       = "N°";
-$lang['item_name_label']                = "Libellé ";
+$lang['item_name_label']                = "Libellé catégorie";
 $lang['category_name_label']            = "Catégorie";
-$lang['sub_category_name_label']        = "Libellé";
+$lang['sub_category_name_label']        = "Désignation sous-catégorie";
 $lang['unit_price_label']               = "Unit Price";
 $lang['edit_label']                     = "Modifier";
 $lang['delete_label']                   = "Supprimer";
@@ -37,14 +37,14 @@ $lang['save_go_button']                 = "Valider & aller vers gallerie";
 $lang['cancel_button']                  = "Annuler";
 $lang['item_info_label']                = "Description ";
 $lang['dashboard_label']                = "Tableau de Bords";
-$lang['item_list_label']                = "List des articles";
+$lang['item_list_label']                = "Liste des articles";
 $lang['update_item_label']              = "Modifier";
 $lang['update_button']                  = "Modifier";
 $lang['goto_gallery_button']            = "Aller à la galerie";
 $lang['search_result_label']            = "Résultat de la recherche";
 $lang['reset_button']                   = "Réinitialiser";
 $lang['item_edit_label']                = "Modifier";
-$lang['gallery_label']                  = "Gallery";
+$lang['gallery_label']                  = "Gallerie";
 $lang['add_file_button']                = "Ajouter le fichier";
 $lang['start_upload_button']            = "Débuter le téléchargement";
 $lang['cancel_upload_button']           = "Annuler le téléchargement";
@@ -92,7 +92,7 @@ $lang['sub_cat_ordering_tooltips']	    = "Veillez enter la valeur du numéro d'o
 $lang['sub_cat_photo_tooltips']	        = "Please provide the sub category cover photo. It might be only one Photo.";
 $lang['sub_categories_list_label']      = "Liste sous-catégorie";
 $lang['sub_cat_info_label']             = "Sub Category Information";
-$lang['add_new_sub_cat_button']         = "Ajouter une sous catégorie";
+$lang['add_new_sub_cat_button']         = "Ajouter une sous-catégorie";
 $lang['no_sub_cat_data_message']        = "There is no data yet for the sub category.";
 $lang['delete_sub_cat_label']           = "Delete Sub Category?";
 $lang['delete_subcat_confirm_message']  = "Do you want to delete all the items under that sub category together?";
@@ -114,7 +114,7 @@ $lang['no_rating_data_message']         = "There is no data yet for the rating."
 $lang['feed_info_lable']                = "Feed Information";
 $lang['update_feed_label']              = "Feed Update";
 
-$lang['username_label']                 = "Username";
+$lang['username_label']                 = "Nom utilisateur";
 $lang['email_label']                    = "Email";
 $lang['detail_label']                   = "Detail";
 $lang['ban_label']                      = "Ban";
@@ -150,7 +150,7 @@ $lang['inquiry_detail_label']           = "Inquiry Detail";
 $lang['inquiry_info_label']             = "Inquiry Information";
 $lang['message_label']                  = "Message";
 
-$lang['users_list_label']               = "Users List";
+$lang['users_list_label']               = "Liste utilisateurs";
 $lang['add_new_user_button']            = "Ajouter un utilisateur";
 $lang['user_role_label']                = "Rôle utilisateur";
 $lang['no_user_data_message']           = "There is no user yet in the system.";
@@ -158,7 +158,7 @@ $lang['no_user_data_message']           = "There is no user yet in the system.";
 $lang['user_info_label']                = "Détail utilisateur";
 $lang['password_label']                 = "Mot de passe";
 $lang['confirm_password_label']         = "Mot de passe confirmé";
-$lang['allowed_modules_label']          = " Module autorisée";
+$lang['allowed_modules_label']          = "Modules autorisée";
 $lang['update_user_label']              = "Update User";
 
 $lang['currency_update_label']          = "Currency Update";
@@ -213,17 +213,19 @@ $lang['no_likes_data_message']         = "There is no data yet for ratings.";
 $lang['rating_label']                  = "Rating Value";
 
 
-$lang['username_label']                = "Login";
+$lang['username_label']                = "Nom utilisateur";
 $lang['username_tooltips']             = "Please provide username to login backend.";
-$lang['password_label']                = "Password";
+$lang['password_label']                = "Mot de passe";
+$lang['confirm_password_label']       = "Confirmer Mot de passe";
+
 $lang['password_tooltips']             = "Please provide password to login backend.";
 
 $lang['is_city_admin_label']           = "Est-ce l'administrateur du pays?";
 $lang['select_city_label']             = "
-Si l'utilisateur est 'City Admin', veuillez sélectionner 'Pays' pour l'attribuer.";
+Si l'utilisateur est 'Administrateur d'un pays', veuillez sélectionner 'Pays' pour l'attribuer.";
 
 $lang['sender_email_label']            = "Compte de messagerie de l'expéditeur (pour SMTP)";
-$lang['sender_email_tooltips']         = "Please provide sender email account for SMTP";
+$lang['sender_email_tooltips']         = "Veuillez fournir le compte de messagerie de l'expéditeur pour SMTP";
  
 $lang['att_detail_list_label']         = "Attribute Detail List";
 $lang['update_att_detail_label']       = "Update Attribute Detail Information";
@@ -286,7 +288,7 @@ $lang['sorry_no_device']               = "Sorry, there is no registered device f
 
 $lang['find_location_label']           = "Tapez et trouvez la position à partir de Google API";
 $lang['find_location_tooltips']        = "Veuillez taper votre position et sélectionner dans la liste déroulante";
-$lang['item_address_label']            = "Address";
+$lang['item_address_label']            = "Adresse";
            
 $lang['paypal_feature_only_on_server'] = "Cette fonctionnalité ne fonctionnera que sur l'environnement du serveur en raison de l'API Paypal.";
 $lang['app_info_lable']                = "About Your App";
@@ -490,10 +492,10 @@ $lang['f_err_no_page_text'] = "Are you looking for other pages?";
 
 
 // DASHBOARD
-$lang['registered_user_counts'] = "Total utilisateurs inscrits";
-$lang['item_review_counts'] = "Total Commentaires";
-$lang['item_like_counts'] = "Total Like";
-$lang['f_next'] = "Total Message";
+$lang['registered_user_counts'] = "Membres inscrits";
+$lang['item_review_counts'] = "Commentaires";
+$lang['item_like_counts'] = "Likes";
+$lang['f_next'] = "Messages";
 $lang['f_welcome_me'] = "Bienvenue";
 
 /* End of file ps_lang.php */

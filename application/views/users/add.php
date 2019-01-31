@@ -32,7 +32,7 @@
 											'name' => 'user_name',
 											'id' => 'user_name',
 											'class' => 'form-control',
-											'placeholder' => 'Username',
+											'placeholder' => 'Nom utilisateur',
 											'value' => ''
 										));
 									?>
@@ -54,12 +54,12 @@
 								
 								<div class="form-group">
 									<label><?php echo $this->lang->line('password_label')?></label>
-									<input class="form-control" type="password" placeholder="Password" name='user_password' id='user_password'>
+									<input class="form-control" type="password" placeholder="<?php echo $this->lang->line('password_label')?>" name='user_password' id='user_password'>
 								</div>
 											
 								<div class="form-group">
 									<label><?php echo $this->lang->line('confirm_password_label')?></label>
-									<input class="form-control" type="password" placeholder="Confirm Password" name='conf_password' id='conf_password'>
+									<input class="form-control" type="password" placeholder="<?php echo $this->lang->line('confirm_password_label')?>" name='conf_password' id='conf_password'>
 								</div>
 								
 								<div class="form-group">

@@ -7,7 +7,7 @@
 					if($this->session->userdata('is_city_admin')) { ?>
 							<li><a href="<?php echo site_url() . "/dashboard/index/" . $this->session->userdata('allow_city_id');?>"><?php echo $this->lang->line('dashboard_label')?></a> <span class="divider"></span></li>
 				<?php } else { ?>
-							<li><a href="<?php echo site_url() . "/dashboard";?>"><?php echo $this->lang->line('dashboard_label')?></a> <span class="divider"></span></li>
+							<li><a href="<?php echo site_url() . "/dashboard";?>"><?php echo $this->lang->line('dashboard_label')?> </a> <span class="divider"></span></li>
 				<?php } ?>
 				
 				
@@ -145,14 +145,14 @@
 										<td>
 											<?php if($item->is_published == 1):?>
 											
-												<button class="btn btn-sm btn-primary unpublish"   
+												<button   class="btn btn-sm btn-primary unpublish"
 													itemId='<?php echo $item->id;?>'>Oui
 												</button>
 												
 											<?php else:?>
 											
-												<button class="btn btn-sm btn-danger publish"
-												itemId='<?php echo $item->id;?>'>No</button>
+												<button   class="btn btn-sm btn-danger publish"
+												itemId='<?php echo $item->id;?>'>Non</button>
 											
 											<?php endif;?>
 										</td>
@@ -167,7 +167,7 @@
 											<?php else:?>
 											
 												<button class="btn btn-sm btn-danger publish"
-												itemId='<?php echo $item->id;?>'>No</button>
+												itemId='<?php echo $item->id;?>'>Non</button>
 											
 											<?php endif;?>
 										</td>
@@ -205,7 +205,7 @@
 							if(msg == 'true')
 								btn.addClass('unpublish').addClass('btn-primary')
 									.removeClass('publish').removeClass('btn-danger')
-									.html('Yes');
+									.html('Oui');
 							else
 								alert('System error occured. Please contact your system administrator.');
 						}
@@ -224,7 +224,7 @@
 							if(msg == 'true')
 								btn.addClass('publish').addClass('btn-danger')
 									.removeClass('unpublish').removeClass('btn-primary')
-									.html('No');
+									.html('Non');
 							else
 								alert('System error occured. Please contact your system administrator.');
 						}
