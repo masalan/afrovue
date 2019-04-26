@@ -41,11 +41,11 @@
 $route['default_controller'] = "cities";
 $route['404_override'] = 'error';
 $route['admin'] = 'cities';
-$route['login'] = 'citiesdirectory/login';
-$route['logout'] = 'citiesdirectory/logout';
+$route['login'] = 'theme/login';
+$route['logout'] = 'theme/logout';
 $route['profile'] = 'dashboard/profile';
-$route['reset/(:any)'] = 'citiesdirectory/reset/$1';
-$route['forgot'] = 'citiesdirectory/forgot';
+$route['reset/(:any)'] = 'theme/reset/$1';
+$route['forgot'] = 'theme/forgot';
 $route['backup'] = 'dashboard/backup';
 
 /* End of file routes.php */

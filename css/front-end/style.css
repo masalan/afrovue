@@ -13,7 +13,8 @@
 
 /* Modify Bootstrap Base */
 .navbar.transparent.navbar-inverse .navbar-inner {
-	background: rgba(0,0,0,0.4);
+	/*background: rgba(0,0,0,0.4);*/
+	background-color: red;
 }
 
 .form-inline > * {

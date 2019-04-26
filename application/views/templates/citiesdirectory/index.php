@@ -1,12 +1,12 @@
-<?php $this->load->view('templates/citiesdirectory/header');?>
+<?php $this->load->view('templates/theme/header');?>
 
 <?php 
 	if($edit_mode){
 		$data['mode'] = $edit_mode;
 		//echo " >>>here " . $edit_mode;
-		$this->load->view('templates/citiesdirectory/nav',$data);
+		$this->load->view('templates/theme/nav',$data);
 	} else {
-		$this->load->view('templates/citiesdirectory/nav');
+		$this->load->view('templates/theme/nav');
 	}
 
 ?>
@@ -16,7 +16,7 @@
 		<div class="col-sm-3 col-md-2 sidebar teamps-sidebar-open">
 			<?php
 				if($sidebar){
-					$this->load->view('templates/citiesdirectory/sidebar');
+					$this->load->view('templates/theme/sidebar');
 				}
 			?>
 		</div>
@@ -28,4 +28,4 @@
 	</div>
 </div>
 
-<?php $this->load->view('templates/citiesdirectory/footer');?>
+<?php $this->load->view('templates/theme/footer');?>

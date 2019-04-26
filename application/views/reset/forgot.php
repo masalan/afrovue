@@ -1,7 +1,7 @@
 <?php
 $this->lang->load('ps', 'english');
 ?>
-<?php $this->load->view('templates/citiesdirectory/header');?>
+<?php $this->load->view('templates/theme/header');?>
 	<div class='fluid-container'>
 		<div class='row'>
 			<div class='col-sm-4 col-sm-offset-3'>
@@ -55,4 +55,4 @@ $this->lang->load('ps', 'english');
 		});
 	</script>
 	
-<?php $this->load->view('templates/citiesdirectory/footer');?>
+<?php $this->load->view('templates/theme/footer');?>

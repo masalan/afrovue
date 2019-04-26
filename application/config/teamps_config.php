@@ -1,5 +1,5 @@
 <?php
-$config['template'] = "citiesdirectory";
+$config['template'] = "theme";
 
 /* pagination */
 $config['pagination'] = array();

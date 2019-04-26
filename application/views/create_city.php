@@ -1,6 +1,6 @@
 <?php $this->lang->load('ps', 'english'); ?>
 
-<?php $this->load->view('templates/citiesdirectory/header');?>
+<?php $this->load->view('templates/theme/header');?>
 
 <div class="navbar navbar-fixed-top" role="navigation">
 	<div class="container-fluid">
@@ -38,7 +38,7 @@
 			
 			<?php
 			$attributes = array('id' => 'city-form','enctype' => 'multipart/form-data');
-			echo form_open(site_url("citiesdirectory/create_city"), $attributes);
+			echo form_open(site_url("theme/create_city"), $attributes);
 			?>
 				<div class="row">
 					
@@ -231,7 +231,7 @@
 			user_name:{
 				required: true,
 				minlength: 4,
-				remote: '<?php echo site_url("citiesdirectory/exists");?>'
+				remote: '<?php echo site_url("theme/exists");?>'
 			},
 			user_email:{
 				required: true,
@@ -280,4 +280,4 @@
 	});
 </script>
 
-<?php $this->load->view('templates/citiesdirectory/footer');?>
+<?php $this->load->view('templates/theme/footer');?>

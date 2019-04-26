@@ -1,6 +1,6 @@
 <?php $this->lang->load('ps', 'english'); ?>
 
-<?php $this->load->view('templates/citiesdirectory/header');?>
+<?php $this->load->view('templates/theme/header');?>
 
 <div class="navbar navbar-fixed-top" role="navigation">
 	<div class="container-fluid">
@@ -43,7 +43,7 @@
 	                            <a href="<?php echo site_url() . "/login"; ?>" class="btn btn-primary m-t">
 	                            <?php echo $this->lang->line('btn_goto_login')?></a>
 	                            
-	                            <a href="<?php echo site_url() . "/citiesdirectory/create_city"; ?>" class="btn btn-primary m-t">
+	                            <a href="<?php echo site_url() . "/theme/create_city"; ?>" class="btn btn-primary m-t">
 	                            <?php echo $this->lang->line('btn_register_another_city')?></a>
 	                        </div>
 	                    </div>
@@ -57,4 +57,4 @@
 
 
 
-<?php $this->load->view('templates/citiesdirectory/footer');?>
+<?php $this->load->view('templates/theme/footer');?>

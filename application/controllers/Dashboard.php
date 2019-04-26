@@ -110,7 +110,7 @@ class Dashboard extends Main
 		
 		// Load the download helper and send the file to your desktop
 		$this->load->helper('download');
-		force_download('citiesdirectory.zip', $backup);
+		force_download('theme.zip', $backup);
 	}
 }
 ?>

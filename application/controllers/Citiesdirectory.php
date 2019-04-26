@@ -442,8 +442,8 @@ EOT;
 	        
         } else {
         	$fields = array(
-	            'returnurl' => site_url( 'citiesdirectory/do_express_checkout_payment/'. $city_data['id'] ), 							// Required.  URL to which the customer will be returned after returning from PayPal.  2048 char max.
-	            'cancelurl' => site_url( 'citiesdirectory/do_express_checkout_payment/'. $city_data['id'] ),
+	            'returnurl' => site_url( 'theme/do_express_checkout_payment/'. $city_data['id'] ), 							// Required.  URL to which the customer will be returned after returning from PayPal.  2048 char max.
+	            'cancelurl' => site_url( 'theme/do_express_checkout_payment/'. $city_data['id'] ),
 	            'surveyquestion' => ''
 	        );
 
